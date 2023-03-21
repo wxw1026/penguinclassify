@@ -1,0 +1,14 @@
+library(usethis)
+usethis::use_r("name_of_R")
+
+library(devtools)
+load_all()
+#then you can use the function in .R
+
+git remote -v
+git remote add origin git@github.com....(http)
+
+check() to see error and warning and notes
+
+use_mit_license() to change the license in description
+
