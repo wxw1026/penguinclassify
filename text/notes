@@ -12,3 +12,6 @@ check() to see error and warning and notes
 
 use_mit_license() to change the license in description
 
+remotes::install_github("UserName/repo...") to install the packages
+
+3.16-3.23
