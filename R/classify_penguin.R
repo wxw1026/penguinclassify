@@ -1,6 +1,5 @@
 library(testthat) # may need to delete this if check() gives error
 
-#' @export
 classify_penguin <- function(bill, flipper) {
   if (flipper > 205) {
     return("Gentoo")
