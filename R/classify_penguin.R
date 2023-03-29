@@ -1,5 +1,16 @@
-library(testthat) # may need to delete this if check() gives error
-
+#' classify a penguin
+#'
+#' classify a penguin given the bill length and flipper length
+#'
+#' @param bill the length of a bill measured in mm
+#' @param flipper the length of a flipper measured in mm
+#'
+#'
+#' @export
+#'
+#' @examples
+#' # example code
+#' classify_penguin(10,100)
 classify_penguin <- function(bill, flipper) {
   if (flipper > 205) {
     return("Gentoo")
@@ -11,6 +22,4 @@ classify_penguin <- function(bill, flipper) {
     }
   }
 }
-classify_penguin(40,210)
-expect_equal(classify_penguin(40,210), "Gentoo")
 
