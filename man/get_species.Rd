@@ -12,3 +12,11 @@ dataframe of one column
 \description{
 return the species column for palmerpenguins
 }
+\examples{
+get_species()
+
+\dontrun{
+get_species("hi")
+}
+
+}
